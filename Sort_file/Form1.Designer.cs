@@ -82,7 +82,7 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(12, 262);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(538, 140);
+            this.label2.Size = new System.Drawing.Size(538, 200);
             this.label2.TabIndex = 8;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -140,7 +140,7 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "che";
+            this.Text = "Sorts file";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
