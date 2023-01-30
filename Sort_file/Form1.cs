@@ -90,6 +90,13 @@ namespace Sort_file
             }
             );
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string text = Convert.ToString(DateTime.Today);
+            Directory.CreateDirectory(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + textBox1.Text);
+        }
+
         private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)
         {
            
@@ -114,5 +121,7 @@ namespace Sort_file
         {
 
         }
+
+        
     }
 }
